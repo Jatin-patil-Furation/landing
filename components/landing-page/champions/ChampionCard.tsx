@@ -7,8 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./styles.css";
-
-import { Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
 import { Championsdata } from "../../../constants/index";
 
@@ -29,8 +28,12 @@ const ChampionCard: React.FC = () => {
         slidesPerView={1}
         spaceBetween={35}
         navigation={true}
-          centeredSlides={true}
+        centeredSlides={true}
         initialSlide={1}
+        autoplay={{
+          delay: 1000,
+          disableOnInteraction: false,
+        }}
         onSlideChange={handleSlideChange}
         pagination={{
           clickable: true,
@@ -53,7 +56,7 @@ const ChampionCard: React.FC = () => {
             spaceBetween: 50,
           },
         }}
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay,Pagination, Navigation]}
         className="mySwiper overflow-hidden  md:border-red-600"
       >
         {Championsdata.length > 0 &&
