@@ -20,7 +20,7 @@ const Footer = () => {
             games and endless entertainment. Immerse yourself in world of
             classic Indian card games, where strategy meets excitement. At
             Sikkha Play, we take pride in bringing you two of the most beloved
-            card games – Teen Patti and Marriage. Whether you're a seasoned card
+            card games  Teen Patti and Marriage. Whether you are a seasoned card
             player or just starting out, Sikkha Play offers a platform where you
             can challenge your friends, connect with players from around the
             world, and showcase your skills. With a user-friendly interface,
