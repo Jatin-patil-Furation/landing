@@ -20,7 +20,7 @@ const Footer = () => {
             games and endless entertainment. Immerse yourself in world of
             classic Indian card games, where strategy meets excitement. At
             Sikkha Play, we take pride in bringing you two of the most beloved
-            card games  Teen Patti and Marriage. Whether you are a seasoned card
+            card games Teen Patti and Marriage. Whether you are a seasoned card
             player or just starting out, Sikkha Play offers a platform where you
             can challenge your friends, connect with players from around the
             world, and showcase your skills. With a user-friendly interface,
@@ -115,7 +115,11 @@ const Footer = () => {
               <a href="#" className="underline block">
                 1800 123 4567{" "}
               </a>
-              <a href="https://www.furation.tech/" className="underline block">
+              <a
+                href="https://www.furation.tech/"
+                target="_blank"
+                className="underline block"
+              >
                 hello@Furation.tech
               </a>
             </div>
@@ -145,8 +149,8 @@ const Footer = () => {
         <hr className="w-[95%] mx-auto bg-slate-400" />
         <h3 className="text-sm text-center py-8">
           © 2023 Sikka play. All rights reserved. |
-          <a href="https://www.furation.tech/" >
-             Developed By: Furation Tech Solutions Pvt.Ltd.
+          <a href="https://www.furation.tech/" target="_blank">
+            Developed By: Furation Tech Solutions Pvt.Ltd.
           </a>
         </h3>
       </div>
