@@ -10,25 +10,28 @@ import herobackground from "../../public/assets/hero/hero-background.svg";
 const Hero: React.FC = () => {
   return (
     <section>
-      <div
-        className="bg-[url('/assets/hero/hero-background.svg')] 
-      bg-center
-       bg-no-repeat mobilesection  bg-[#0C0C0C]
-        w-[100vw]    "
-      >
+      <div className=" relative  top-0 mobiles">
         <div
-          className="w-[100%] m-auto top-0
-          fixed z-20 border-red-500 
-          bg-[url('/assets/hero/Navboxshadow.svg')]
-           py-[.7rem]  px-[1rem]  "
+          className="w-[100vw]   bg-[url('/assets/hero/background.svg')]
+       bg-center bg-no-repeat"
         >
-          <Mobilenav />
-        </div>
-        <div className=" m-auto flex items-center justify-center">
-          <div className="m-auto   relative top-[4rem]">
-            <Mobilehero />
+          <div
+            className=" w-[100%]
+          fixed z-20
+          main-nav-con
+           py-[1rem] opacity-2 rounded-lg"
+          >
+            <div>
+              <Mobilenav />
+            </div>
           </div>
+          <Mobilehero />
         </div>
+        <img
+          src="/assets/hero/border-hero.png"
+          alt="back"
+          className="w-full h-full"
+        />
       </div>
 
       <div className="w-[100%] hidden sm:block  relative  ">

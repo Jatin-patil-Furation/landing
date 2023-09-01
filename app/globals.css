@@ -99,7 +99,7 @@ body {
 
 
  @media screen and (min-width: 640px) {
-     .mobilesection{
+     .mobiles{
        display: none;
      }
 }
@@ -108,26 +108,29 @@ body {
        .mobilesection{
         /* border: 2px solid green; */
         padding-bottom: 20%;
-        padding-top: 7%;
-        /* height: 80vh; */
        }
        .mobilehero{
         position: relative;
+        /* border: 2px solid red; */
+          padding-top: 15%;
        }
        .heroimage{
-        width: 100%;
+        width: 90%;
        }
          .sikka{
         width: 90%;
        }
+      .buttoncon{
+        padding-bottom: 5%;
+      }
 }
 
 @media only screen and (max-width: 530px) and (min-width: 413px)  {
        .mobilehero{
-        /* border: 2px solid red; */
+       
         position: relative;
         padding-bottom: 10%;
-        padding-top: 5%;
+         padding-top: 15%;
        }
        .mobilesection{
          /* border: 2px solid yellow; */

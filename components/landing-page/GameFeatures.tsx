@@ -11,6 +11,7 @@ const GameFeatures = () => {
         GameFeature.map((feature) => {
           return (
             <div
+              
               key={feature.id}
               className="basis-full lg:basis-[30%] flex flex-col items-center py-3 gap-3 align-baseline"
             >

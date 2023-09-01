@@ -7,8 +7,6 @@ import heroshadow from "../../../public/assets/hero/heroboxshadow.png";
 import AOS from 'aos';
 
 const HeroCard = () => {
-  // AOS.init();
-
   useEffect(() => {
     AOS.init();
   }, []);
@@ -57,7 +55,7 @@ const HeroCard = () => {
           <Image src={heroshadow} alt="heroshadow" />
         </div>
         <div className="flex justify-center items-center ">
-          <div className="lg:py-[.6rem] lg:px-[.3rem] border-green-600  m-auto rounded-t-lg z-10 ">
+          <div className="fade-in-right lg:py-[.6rem] lg:px-[.3rem] border-green-600  m-auto rounded-t-lg z-10 ">
             <Image src={heroimage} alt="Image" className="m-auto " />
           </div>
         </div>
