@@ -16,15 +16,15 @@ const Footer = () => {
             data-aos="fade-up"
             className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-400 py-14"
           >
-            Welcome to Sikkha Play, your ultimate destination for thrilling card
+            Welcome to Sikka Play, your ultimate destination for thrilling card
             games and endless entertainment. Immerse yourself in world of
             classic Indian card games, where strategy meets excitement. At
-            Sikkha Play, we take pride in bringing you two of the most beloved
+            Sikka Play, we take pride in bringing you two of the most beloved
             card games Teen Patti and Marriage. Whether you are a seasoned card
-            player or just starting out, Sikkha Play offers a platform where you
+            player or just starting out, Sikka Play offers a platform where you
             can challenge your friends, connect with players from around the
             world, and showcase your skills. With a user-friendly interface,
-            stunning graphics, and smooth gameplay, Sikkha Play ensures that
+            stunning graphics, and smooth gameplay, Sikka Play ensures that
             every hand you play is a memorable one.
             <span data-aos="fade-up" className="text-white block pt-8">
               Thank you for choosing us as your gaming companion. Let the cards

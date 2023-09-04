@@ -12,7 +12,7 @@ const HeroCard = () => {
   }, []);
 
   return (
-    <div className="max-w-6xl relative sm:top-5  sm:py-[2rem]  sm:px-[.8rem] md:py-[1rem] md:px-[1.2rem] lg:py-[1rem] lg:px-[2rem] m-auto flex justify-between gap-4">
+    <div className="max-w-6xl relative sm:top-5  sm:py-[2rem]  sm:px-[2.8rem] md:py-[1rem] md:px-[2rem] lg:py-[1rem] lg:px-[2rem] m-auto flex justify-between gap-4">
       <div className="w-[60%]  m-auto border-yellow-500 fade-in-left ">
         <div
           className="

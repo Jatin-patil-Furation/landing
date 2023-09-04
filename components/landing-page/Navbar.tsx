@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
 import sikka from "../../public/assets/hero/hero-heading.svg"
 import Image from "next/image";
 
@@ -9,7 +8,7 @@ const Navbar: React.FC = () => {
     <nav className="mx-auto  px-[1.2rem]  items-center flex justify-between shape">
    
      
-        <div className=" px-4 flex justify-center items-center sm:w-[26%]  lg:w-[25%]  border-red-600">
+        <div className="px-6 pb-1 flex justify-center items-center sm:w-[38%] md:w-[35%] lg:w-[22%]  border-red-600">
           <Image src={sikka} alt={"logo"} className="mb-2" />
         </div>
     

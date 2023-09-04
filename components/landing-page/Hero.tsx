@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
           </div>
           <div
             className=" m-auto relative 
-          lg:py-[1.5rem] sm:py-[1rem]  
+          lg:py-[1.5rem] sm:py-[1rem] 
           top-[8rem] sm:top-[2rem] md:top-[5rem] 
            border-yellow-500"
           >
