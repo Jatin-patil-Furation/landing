@@ -1,8 +1,8 @@
 "use client";
 
-import React, {useState } from "react";
+import React, {useState ,useEffect,useRef } from "react";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper,  SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -17,7 +17,7 @@ const ChampionCard: React.FC = () => {
   const handleSlideChange = (swiper: any) => {
      setActiveIndex(swiper.activeIndex);
   };
-  // console.log("active", activeIndex);
+
 
   return (
     <div
@@ -31,7 +31,8 @@ const ChampionCard: React.FC = () => {
         centeredSlides={true}
         initialSlide={1}
         autoplay={{
-          delay: 1000,
+          delay: 1500,
+          // reverseDirection: true,
           disableOnInteraction: false,
         }}
         onSlideChange={handleSlideChange}
@@ -56,7 +57,7 @@ const ChampionCard: React.FC = () => {
             spaceBetween: 50,
           },
         }}
-        modules={[Autoplay,Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper overflow-hidden  md:border-red-600"
       >
         {Championsdata.length > 0 &&

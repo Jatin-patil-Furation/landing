@@ -20,7 +20,7 @@ const Offer = () => {
         </div>
       </div>
 
-      <div className="flex w-[95%] m-auto pt-4  justify-center items-center flex-wrap px-[2rem] py-3 sm:gap-7 lg:gap-4 gap-14 ">
+      <div className=" w-[95%] m-auto pt-4  justify-center items-center  grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10 px-[2rem] py-3 sm:gap-7 md:gap-10 lg:gap-4  ">
         {offerDeatils.map((offer) => {
           return (
             <div
@@ -28,7 +28,7 @@ const Offer = () => {
               key={offer.id}
               className="basis-full  aos-init aos-animate object-fill sm:basis-[45%] md:basis-[30%] "
             >
-              <div className="w-[90%] mx-auto hover:scale-105 transition-all delay-200 ease-in ">
+              <div className="w-[90%] md:w-[80%] mx-auto hover:scale-105 transition-all delay-200 ease-in ">
                 <img
                   src={offer.offerImage}
                   alt=""

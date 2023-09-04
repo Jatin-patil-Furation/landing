@@ -100,21 +100,12 @@ const Footer = () => {
             data-aos="fade-up"
             className="left-footer  basis-[50%] text-sm md:text-base lg:text-lg "
           >
-            <div className="address py-5 text-left">
-              <h4 className="text-sm sm:text-base md:text-base lg:text-lg">
-                Address:
-              </h4>
-              <p className="text-sm sm:text-base md:text-base lg:text-lg">
-                Level 1, 12 Sample St, Nepal
-              </p>
-            </div>
+           
             <div className="Contact-us  text-left">
               <h4 className="text-sm sm:text-base md:text-base lg:text-lg">
                 Contact:
               </h4>
-              <a href="#" className="underline block">
-                1800 123 4567{" "}
-              </a>
+              
               <a
                 href="https://www.furation.tech/"
                 target="_blank"

@@ -46,7 +46,7 @@ const Game = () => {
             <div
               data-aos="fade-up"
               key={card.id}
-              className="basis-full p-6 sm:basis-[40%] md:basis-[48%] lg:basis-[30%]  "
+              className=" p-6 sm:w-[90%] md:w-[70%] lg:w-[100%] w-[100%] m-auto"
             >
               <GameCard card={card} />
             </div>
