@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[url('/assets/footer/footer-background.svg')] text-white bg-no-repeat bg-cover">
+    <footer className="bg-[url(https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/footer/footer-background.svg)] text-white bg-no-repeat bg-cover">
       <div className="footer-conatainer">
         <div className="footer-information px-8 pt-10 md:pt-28 text-center">
           <h3
@@ -18,9 +18,9 @@ const Footer = () => {
           >
             Welcome to Sikka Play, your ultimate destination for thrilling card
             games and endless entertainment. Immerse yourself in world of
-            classic Indian card games, where strategy meets excitement. At
-            Sikka Play, we take pride in bringing you two of the most beloved
-            card games Teen Patti and Marriage. Whether you are a seasoned card
+            classic Indian card games, where strategy meets excitement. At Sikka
+            Play, we take pride in bringing you two of the most beloved card
+            games Teen Patti and Marriage. Whether you are a seasoned card
             player or just starting out, Sikka Play offers a platform where you
             can challenge your friends, connect with players from around the
             world, and showcase your skills. With a user-friendly interface,
@@ -100,19 +100,17 @@ const Footer = () => {
             data-aos="fade-up"
             className="left-footer  basis-[50%] text-sm md:text-base lg:text-lg "
           >
-           
             <div className="Contact-us  text-left">
               <h4 className="text-sm sm:text-base md:text-base lg:text-lg">
-                Contact:
+                Contact:{" "}
+                <a
+                  href="https://www.furation.tech/"
+                  target="_blank"
+                  className="underline "
+                >
+                  contact@sikkaplay.com
+                </a>
               </h4>
-              
-              <a
-                href="https://www.furation.tech/"
-                target="_blank"
-                className="underline block"
-              >
-                hello@Furation.tech
-              </a>
             </div>
           </div>
           <div className="right-footer flex flex-wrap py-5 basis-[35%] sm:basis-[45%] text-sm md:text-base lg:text-lg justify-evenly ">

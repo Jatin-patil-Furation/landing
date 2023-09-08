@@ -84,6 +84,8 @@ const ChampionCard: React.FC = () => {
                     >
                       <Image
                         src={data.avatar}
+                        width={100}
+                        height={100}
                         alt={`Profile Image ${index + 1}`}
                       />
                     </div>

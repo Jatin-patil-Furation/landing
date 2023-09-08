@@ -25,14 +25,30 @@ const Champions: React.FC = () => {
           data-aos="fade-up"
           className=" aos-init aos-animate w-[15%]  border-red-700"
         >
-          <Image src={champrectangle} alt="logo" className="mt-[-2px]" />
+          <Image
+            src={
+              "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/champs/champ-sidelogo.svg"
+            }
+            width={200}
+            height={200}
+            alt="logo"
+            className="mt-[-2px]"
+          />
         </div>
 
         <div
           data-aos="fade-up"
           className=" aos-init aos-animate w-[15%] border-red-700"
         >
-          <Image src={sufflecoin} alt="logo" className="mt-[-2px]" />
+          <Image
+            src={
+              "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/champs/Sufflechamp.svg"
+            }
+            width={150}
+            height={150}
+            alt="logo"
+            className="mt-[-2px]"
+          />
         </div>
       </div>
       <div

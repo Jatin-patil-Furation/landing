@@ -1,8 +1,7 @@
 'use client';
 import Image from 'next/image';
 import React, { useEffect } from 'react'
-import sikka from "../../../public/assets/hero/hero-heading.svg"
-import heroimage from "../../../public/assets/hero/hero-image.svg";
+
 import heroshadow from "../../../public/assets/hero/heroboxshadow.png";
 import AOS from 'aos';
 
@@ -23,8 +22,12 @@ const HeroCard = () => {
          border-pink-500 "
         >
           <Image
-            src={sikka}
+            src={
+              "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/hero/hero-heading.svg"
+            }
             alt="Sikkafont"
+            width={100}
+            height={100}
             className="sm:w-[80%] md:w-[100%] lg:w-[100%] "
           />
         </div>
@@ -56,7 +59,14 @@ const HeroCard = () => {
         </div>
         <div className="flex justify-center items-center ">
           <div className="fade-in-right lg:py-[.6rem] lg:px-[.3rem] border-green-600  m-auto rounded-t-lg z-10 ">
-            <Image src={heroimage} alt="Image" className="m-auto " />
+            <img
+              src={
+                "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/hero/hero-image.svg"
+                 }
+             
+              alt="Image"
+              className="m-auto "
+            />
           </div>
         </div>
       </div>

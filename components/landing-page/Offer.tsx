@@ -1,7 +1,7 @@
  import { offerDeatils } from "@/constants";
 import React from "react";
 import gamelogo from "../../public/assets/game/Gamelogo.svg"
-import Image from "next/image";
+
 
 const Offer = () => {
   return (

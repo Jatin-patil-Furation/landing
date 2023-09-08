@@ -6,14 +6,15 @@ import Image from "next/image";
 const Navbar: React.FC = () => {
   return (
     <nav className="mx-auto  px-[1.2rem]  items-center flex justify-between shape">
-   
-     
-        <div className="px-6 pb-1 flex justify-center items-center sm:w-[38%] md:w-[35%] lg:w-[22%]  border-red-600">
-          <Image src={sikka} alt={"logo"} className="mb-2" />
-        </div>
-    
-
-    
+      <div className="px-6 pb-1 flex justify-center items-center sm:w-[38%] md:w-[35%] lg:w-[22%]  border-red-600">
+        <img
+          src={
+            "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/hero/hero-heading.svg"
+          }
+          alt={"logo"}
+          className="mb-2"
+        />
+      </div>
 
       <div className="flex  justify-center px-8 items-center space-x-4 ">
         <button className="text-white py-2 px-8 text-base rounded hover:bg-gradient-to-t from-[#AD0B40] to-[#FF1917]  bg-opacity-15 border border-white  hover:border-none transition-all duration-200 ease-in	delay-300">

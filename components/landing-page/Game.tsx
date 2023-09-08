@@ -28,7 +28,11 @@ const Game = () => {
 
       <Image
         data-aos="fade-up"
-        src={pinkchip}
+        src={
+          "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/game/pink-chip.svg"
+        }
+        width={50}
+        height={50}
         alt="chip"
         className="w-14 sm:w-16 sm:h-16 lg:w-24 h-12 lg:h-24 top-8 right-[-0.5em] absolute"
       />
