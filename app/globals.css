@@ -214,11 +214,13 @@ background: linear-gradient(0deg, rgba(7,7,7,1) 66%, rgba(19,9,28,1) 100%);
 .user-descrip.selected{
   color: #ffffff;  
 }
+
+
 .congrs.selected {  
-   background-image: url('../public/assets/champs/flying.svg');
+   background-image: url('https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/champs/flying.svg');
    width: 100%;
-   /* transform: rotate(90deg); */
 }
+
 .image {
   max-width: 100%;
   height: auto;

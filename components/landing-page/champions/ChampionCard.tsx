@@ -60,16 +60,15 @@ const ChampionCard: React.FC = () => {
           spaceBetween={35}
           // navigation={true}
           navigation={{
-            nextEl: ".custom-next-arrow", // use the class of your custom next arrow
-            prevEl: ".custom-prev-arrow", // use the class of your custom prev arrow
+            nextEl: ".custom-next-arrow", 
+            prevEl: ".custom-prev-arrow", 
           }}
           centeredSlides={true}
           initialSlide={1}
-          // autoplay={{
-          //   delay: 1500,
-          //   // disableOnInteraction: true,
-          // }}
-
+          autoplay={{
+            delay: 1500,
+            // disableOnInteraction: true,
+          }}
           onSlideChange={handleSlideChange}
           pagination={{
             clickable: true,
@@ -105,12 +104,12 @@ const ChampionCard: React.FC = () => {
                   }`}
                 >
                   <div className="py-3 min-h-[400px] px-2 md:py-[.5rem]  md:px-[.8rem] lg:py-[.8rem] lg:px-[1rem]">
-                    <div className="m-auto  congrs">
+                    <div className=" congrs">
 
                     </div>
                     <div className="flex  py-[.1rem] px-[.3rem]  justify-center items-center ">
                       <div
-                        className={`Image rounded-full userimage  `}
+                        className={`Image rounded-full userimage `}
                         style={{
                           width: activeIndex === index ? "180px" : "100px",
                           opacity: activeIndex === index ? "3" : ".5",
