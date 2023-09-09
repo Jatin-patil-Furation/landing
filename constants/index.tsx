@@ -134,7 +134,7 @@ export const Championsdata = [
       "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/champs/champfir.svg",
     username: "Nathan Bishop",
     userdes:
-      "I can't get enough of Sikka Play! The artwork is stunning, the rules are easy to learn, and it never gets boring.Best card game I've played in years",
+      "I can't get enough of Sikka Play! The artwork is stunning, the rules are easy to learn.",
   },
   {
     id: 2,
@@ -158,7 +158,7 @@ export const Championsdata = [
       "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/champs/champfir.svg",
     username: "Nathan Bishop",
     userdes:
-      "I can't get enough of Sikka Play! The artwork is stunning, the rules are easy to learn, and it never gets boring.Best card game I've played in years",
+      "I can't get enough of Sikka Play! The artwork is stunning, the rules are easy to learn.",
   },
   {
     id: 5,
