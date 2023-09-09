@@ -134,7 +134,7 @@ export const Championsdata = [
       "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/champs/champfir.svg",
     username: "Nathan Bishop",
     userdes:
-      "I love playing at Sikka Play because of massive bonuses- theres always rewards waiting for us.",
+      "I can't get enough of Sikka Play! The artwork is stunning, the rules are easy to learn, and it never gets boring.Best card game I've played in years",
   },
   {
     id: 2,
@@ -150,7 +150,7 @@ export const Championsdata = [
       "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/champs/champSE.svg",
     username: "Bibek Burke",
     userdes:
-      "I love playing at Sikka Play because of massive bonuses- theres always rewards waiting for us.",
+      "Sikka Play brings out my competitive side in the best way possible.It's addictive and thrilling!.",
   },
   {
     id: 4,
@@ -158,7 +158,7 @@ export const Championsdata = [
       "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/champs/champfir.svg",
     username: "Nathan Bishop",
     userdes:
-      "I love playing at Sikka Play because of massive bonuses- theres always rewards waiting for us.",
+      "I can't get enough of Sikka Play! The artwork is stunning, the rules are easy to learn, and it never gets boring.Best card game I've played in years",
   },
   {
     id: 5,
@@ -174,7 +174,7 @@ export const Championsdata = [
       "https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/champs/champSE.svg",
     username: "Bibek Burke",
     userdes:
-      "I love playing at Sikka Play because of massive bonuses- theres always rewards waiting for us.",
+      "Sikka Play brings out my competitive side in the best way possible.It's addictive and thrilling!.",
   },
 ];
 

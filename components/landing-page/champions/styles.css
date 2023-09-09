@@ -64,8 +64,8 @@ body {
    background-color: transparent;
   background-image: url('/assets/navigation/rightarrow.svg');
   background-size: cover;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 .custom-prev-arrow {
   background-color: transparent;
@@ -73,7 +73,7 @@ body {
    background-image: url('/assets/navigation/rightarrow.svg');
    transform: rotate(180deg);
   background-size: cover;
-  width: 30px;
-  height: 30px;
+   width: 40px;
+  height: 40px;
 }
 

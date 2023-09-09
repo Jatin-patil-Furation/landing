@@ -9,9 +9,7 @@ import "./styles.css";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
 import { Championsdata } from "../../../constants/index";
-import { register } from "swiper/element/bundle";
-import { SwiperOptions } from "swiper/types";
-// register();
+
 interface CustomNextArrowProps {
   onClick: () => void;
 }
@@ -21,7 +19,7 @@ interface CustomPrevArrow {
 }
 const CustomNextArrow: React.FC<CustomNextArrowProps> = ({ onClick }) => {
 return <button className="custom-next-arrow" onClick={onClick}>
-   {/* Next */}
+   
  </button>;
 }
  
@@ -29,7 +27,7 @@ return <button className="custom-next-arrow" onClick={onClick}>
 // Custom Previous Arrow Component
 const CustomPrevArrow: React.FC<CustomNextArrowProps> = ({ onClick }) => {
  return <button className="custom-prev-arrow" onClick={onClick}>
-    {/* Prev */}
+  
   </button>;
 }
  
@@ -54,7 +52,7 @@ const ChampionCard: React.FC = () => {
   return (
     <div
       className="lg:py-[1rem] lg:px-[3.5rem]
-     relative top-[-20px] overflow-hidden "
+     relative top-[-20px]  overflow-hidden "
     >
       <Swiper
         slidesPerView={1}
@@ -69,8 +67,9 @@ const ChampionCard: React.FC = () => {
         autoplay={{
           delay: 1500,
           // reverseDirection: true,
-          disableOnInteraction: false,
+          // disableOnInteraction: true,
         }}
+
         onSlideChange={handleSlideChange}
         pagination={{
           clickable: true,
@@ -138,11 +137,11 @@ const ChampionCard: React.FC = () => {
                       {data.username}
                     </p>
                   </div>
-                  <div className="m-7  sm:py[2rem] md:py[1.5rem] lg:py-[.9rem]  lg:px-[1rem] border-green-600 ">
+                  <div className="m-7  mt-[-4px]  sm:py[2rem] md:py[1.5rem] lg:py-[.9rem]  lg:px-[1.5rem] border-green-600 ">
                     <p
                       className={`${
                         index + 1
-                      } text-center  font-lato text-sm sm:text-lg font-normal leading-1 sm:leading-5 tracking-normal`}
+                      } text-center mt-[-2px] py-2 font-lato text-sm sm:text-lg font-thin leading-1 sm:leading-5 tracking-normal`}
                       style={{
                         color: activeIndex === index ? "#ffffff" : "#6E6E6E",
                       }}
