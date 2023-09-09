@@ -53,7 +53,7 @@ const HeroCard = () => {
         </div>
       </div>
 
-      <div className="w-[40%]  sm:pt-[1rem] md:pt-[1rem] lg:py-[1rem]  m-auto border-pink-500 fade-in-right ">
+      <div className="w-[40%]  sm:pt-[1rem] md:pt-[1rem] lg:py-[1rem]  m-auto fade-in-right ">
         <div className="heroshadow  relative top-[-60px] h-[1px] z-1">
           <Image src={heroshadow} alt="heroshadow" />
         </div>

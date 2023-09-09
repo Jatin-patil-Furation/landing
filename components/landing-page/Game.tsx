@@ -2,9 +2,9 @@
 import { GameCardDetails } from "@/constants";
 import React  from "react";
 import GameCard from "./GameCard";
-import gamelogo from "../../public/assets/game/Gamelogo.svg"
+
 import Image from "next/image";
-import pinkchip from "../../public/assets/game/pink-chip.svg"
+
 import game from "../../public/assets/game/abs-1.svg";
 import AOS from "aos";
 import "aos/dist/aos.css"; 

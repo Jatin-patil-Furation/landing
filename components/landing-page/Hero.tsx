@@ -12,23 +12,23 @@ const Hero: React.FC = () => {
     <section>
       <div className=" relative  top-0 mobiles">
         <div
-          className="w-[100vw]   bg-[url('/assets/hero/background.svg')]
+          className="w-[100vw]   bg-[url(https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/hero/background.svg)]
        bg-center bg-no-repeat"
         >
           <div
             className=" w-[100%]
           fixed z-20
           main-nav-con
-           py-[1rem] opacity-2 rounded-lg"
+           py-2   opacity-2 rounded-lg"
           >
-            <div>
+            <div className=" pt-[.1rem]">
               <Mobilenav />
             </div>
           </div>
           <Mobilehero />
         </div>
         <img
-          src="/assets/hero/border-hero.png"
+          src="https://s3.us-east-2.amazonaws.com/sikkaplay.com-assets/assets/hero/border-hero.png"
           alt="back"
           className="w-full h-full"
         />
@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
             className="z-10   "
           />
         </div>
-        <div className="z-10  border-green-600 absolute inset-0 text-6xl text-white ">
+        <div className="z-20  border-green-600 absolute inset-0 text-6xl text-white ">
           <div
             className=" w-[100%]
           fixed z-20

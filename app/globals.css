@@ -6,6 +6,7 @@
 
 body {
   scroll-behavior: smooth;
+  background: #0C0C0C;
 }
 
 @font-face {

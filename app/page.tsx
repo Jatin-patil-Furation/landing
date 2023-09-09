@@ -10,15 +10,15 @@ import Champions from '@/components/landing-page/champions/Champions';
 
 export default function Home() {
   return (
-    <main className="overflow-hidden max-w-8xl bg-black">
-        <Hero/>
-        <Game />
-        <Explore />
-        <Offer />
-        <Champions />
-        <Faq />
-        <GameFeatures />
-        <Footer />
+    <main className="overflow-hidden max-w-8xl bg-[#0C0C0C]">
+      <Hero />
+      <Game />
+      <Explore />
+      <Offer />
+      <Champions />
+      <Faq />
+      <GameFeatures />
+      <Footer />
     </main>
   );
 }

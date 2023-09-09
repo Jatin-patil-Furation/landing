@@ -6,7 +6,7 @@ import heroshadow from "../../../public/assets/hero/heroboxshadow.png";
 
 const Mobilehero = () => {
   return (
-    <div className="max-w-4xl  px-2 border-yellow-700   mobilehero ">
+    <div className="max-w-4xl mt-[-2px] px-2 border-yellow-700   mobilehero ">
       <div className="w-[100%]   mx-auto  px-1 py-10 pb-[1%] border-red-600 mobilepadding">
         <div className=" pt-4 border-green-600">
           <div className="heroshadow  relative top-[-90px] h-[1px] z-1">

@@ -136,9 +136,9 @@ const Footer = () => {
         </div>
 
         <hr className="w-[95%] mx-auto bg-slate-400" />
-        <h3 className="text-sm text-center py-8">
+        <h3 className="text-sm px-2 text-center py-8">
           © 2023 Sikka play. All rights reserved. |
-          <a href="https://www.furation.tech/" target="_blank">
+          <a className="px-2" href="https://www.furation.tech/" target="_blank">
             Developed By: Furation Tech Solutions Pvt.Ltd.
           </a>
         </h3>

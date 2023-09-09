@@ -1,7 +1,6 @@
 "use client";
 
 import React, {useState ,useEffect,useRef } from "react";
-
 import { Swiper,  SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -10,15 +9,48 @@ import "./styles.css";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
 import { Championsdata } from "../../../constants/index";
+import { register } from "swiper/element/bundle";
+import { SwiperOptions } from "swiper/types";
+// register();
+interface CustomNextArrowProps {
+  onClick: () => void;
+}
+
+interface CustomPrevArrow {
+  onClick: () => void;
+}
+const CustomNextArrow: React.FC<CustomNextArrowProps> = ({ onClick }) => {
+return <button className="custom-next-arrow" onClick={onClick}>
+   {/* Next */}
+ </button>;
+}
+ 
+
+// Custom Previous Arrow Component
+const CustomPrevArrow: React.FC<CustomNextArrowProps> = ({ onClick }) => {
+ return <button className="custom-prev-arrow" onClick={onClick}>
+    {/* Prev */}
+  </button>;
+}
+ 
 
 const ChampionCard: React.FC = () => {
+  const swiperRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState<number>(0);
 
   const handleSlideChange = (swiper: any) => {
-     setActiveIndex(swiper.activeIndex);
+    setActiveIndex(swiper.activeIndex);
   };
 
+  function handleNextClick(): void {
+    // Implement the behavior for the "Next" button here
+    console.log("Next button clicked");
+  }
 
+  function handlePrevClick(): void {
+    // Implement the behavior for the "Prev" button here
+    console.log("Prev button clicked");
+  }
   return (
     <div
       className="lg:py-[1rem] lg:px-[3.5rem]
@@ -27,7 +59,11 @@ const ChampionCard: React.FC = () => {
       <Swiper
         slidesPerView={1}
         spaceBetween={35}
-        navigation={true}
+        // navigation={true}
+        navigation={{
+          nextEl: ".custom-next-arrow", // use the class of your custom next arrow
+          prevEl: ".custom-prev-arrow", // use the class of your custom prev arrow
+        }}
         centeredSlides={true}
         initialSlide={1}
         autoplay={{
@@ -69,7 +105,7 @@ const ChampionCard: React.FC = () => {
                   activeIndex === index ? "selected" : ""
                 }`}
               >
-                <div className="py-3 px-2 md:py-[.5rem]  md:px-[.8rem] lg:py-[.8rem] lg:px-[1rem]">
+                <div className="py-3  px-2 md:py-[.5rem]  md:px-[.8rem] lg:py-[.8rem] lg:px-[1rem]">
                   <div className="m-auto  congrs"></div>
                   <div className="flex  py-[.1rem] px-[.3rem]  justify-center items-center ">
                     <div
@@ -102,11 +138,11 @@ const ChampionCard: React.FC = () => {
                       {data.username}
                     </p>
                   </div>
-                  <div className=" m-5 sm:py[2rem] md:py[1.5rem] lg:py-[.9rem]  lg:px-[1.5rem] border-green-600 mt-4 ">
+                  <div className="m-7  sm:py[2rem] md:py[1.5rem] lg:py-[.9rem]  lg:px-[1rem] border-green-600 ">
                     <p
                       className={`${
                         index + 1
-                      } text-center  font-lato text-lg font-normal leading-5 tracking-normal`}
+                      } text-center  font-lato text-sm sm:text-lg font-normal leading-1 sm:leading-5 tracking-normal`}
                       style={{
                         color: activeIndex === index ? "#ffffff" : "#6E6E6E",
                       }}
@@ -119,8 +155,19 @@ const ChampionCard: React.FC = () => {
             );
           })}
       </Swiper>
-    </div>
+      <div className=" relative 
+      z-10
+      cursor-pointer top-[-280px] flex justify-between border-red-600">
+        <div>
+          <CustomPrevArrow onClick={handlePrevClick} />
+        </div>
+        <div>
+          <CustomNextArrow onClick={handleNextClick} />
+        </div>
+      </div>
+     </div>
   );
 };
 
 export default ChampionCard;
+
